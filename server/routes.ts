@@ -497,7 +497,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       // Use Gemini API key - backend access
-      const apiKey = 'AIzaSyDyVkm3-FSuaeh-TUXmjGZusxCUZB6U9aM';
+      const apiKey = '';
       console.log('API Key check:', apiKey ? 'Found' : 'Not found');
       if (!apiKey) {
         // Fallback to smart responses if no API key
